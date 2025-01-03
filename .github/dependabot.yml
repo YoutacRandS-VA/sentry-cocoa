@@ -3,7 +3,7 @@ updates:
 - package-ecosystem: bundler
   directory: "/"
   schedule:
-    interval: weekly
+    interval: "5 minutes"
   open-pull-requests-limit: 10
   ignore:
   - dependency-name: fastlane
@@ -13,4 +13,4 @@ updates:
 - package-ecosystem: "github-actions"
   directory: "/"
   schedule:
-      interval: weekly
+      interval: "5 minutes"
